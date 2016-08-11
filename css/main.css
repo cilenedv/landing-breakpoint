@@ -1,0 +1,98 @@
+/* Tu CSS va aqui */
+
+ .offset-1 {
+	margin-left: 8.33333333333%;
+}
+.fondo{
+	background-color: #808080;
+}
+.logo2{
+	width: 40%;
+}
+.parte2{
+	padding-left:10%;
+}
+nav a{
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 3%;
+	color:grey;
+
+}
+nav{
+	padding-top:3%;
+	padding-left: 10%;
+	
+	
+}
+a:hover{
+	color:#0431B4;
+}
+.parte-1{
+	padding:5% 10%;
+}
+.titulo{
+	font-size: 40px;
+	text-decoration: none;
+	
+}
+.titulo, .parrafo{
+	color:white;
+	padding-bottom:5%;
+	
+}
+ div form{
+	background-color:#9A9A9A;
+	border-radius: 5px;
+	border:1px solid #9A9A9A;
+	padding:3%;
+
+}
+.text-center{
+	text-align: center;
+}
+h3{
+	color:white;
+	padding: 3%;
+}
+input{
+	width: 95%;
+	margin-bottom:5%;
+	padding: 3%;
+}
+ form #boton{
+	background-color:#3EB0F7;
+	border:2px solid #3EB0F7;
+	border-radius: 3px;
+	color: white; 
+	width: 100%; 
+}
+footer{
+	margin:1% 10%;
+	color:#9A9A9A;
+}
+footer strong{
+	color:blue;
+}
+
+@media (max-width: 535px){
+	.row .w-100{
+		width:100%;
+	}
+	.logo2{
+		width:60%;
+	}
+	.titulo{
+		font-size: 50px;
+	}
+	.titulo-2{
+		font-size: 25px;
+	}
+	.footer{
+		width: 100%;
+	}
+	.offset-1 {
+	margin-left:0%;
+	}
+
+}
